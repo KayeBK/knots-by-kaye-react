@@ -1,16 +1,17 @@
 nav {
-background: rgba(255, 255, 255, .6);
+background: rgba(255, 255, 255, .7);
 padding: 10px;
 font-size: 18px;
 }
 
-.navbar-title {
+.navbar-brand {
     font-family: 'Delius Swash Caps', cursive;
-    font-size: 30px;
+    align-items: center;
 }
 
 .nav-link {
     color: black;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 10px;
+    align-items: center;
 }

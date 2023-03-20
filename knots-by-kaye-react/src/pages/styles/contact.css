@@ -1,0 +1,41 @@
+.contact-container {
+    text-align: center;
+    background: rgba(255, 255, 255, .7);
+    padding: 70px;
+    max-width: 60%;
+    border-radius: 100px;
+    margin-top: 100px;
+}
+
+.contact-text {
+    font-size: 24px;
+    text-align: center;
+    line-height: 2;
+    font-style: italic;
+}
+
+.contact-email {
+    font-size: 22px;
+    text-align: center;
+    line-height: 2;
+}
+
+.social-title {
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  
+.social-link a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+.social-link i {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+.social-link a:hover {
+    color: rgb(191, 224, 251);
+  }
