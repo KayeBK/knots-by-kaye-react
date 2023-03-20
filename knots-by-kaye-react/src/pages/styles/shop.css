@@ -1,0 +1,23 @@
+.shop-container {
+    margin-top: 20px;
+}
+
+.shop-items {
+    padding: 10px;
+    margin: 20px;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 15px;
+}
+
+.shop-img {
+    height: 200px;
+}
+
+.shop-item-titles {
+    font-size: 22px;
+}
+
+.shop-item-prices {
+    font-size: 16px;
+    font-style: italic;
+}
