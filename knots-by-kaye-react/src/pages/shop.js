@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Items from "./Data";
 import Card from "./card";
 import Buttons from "./buttons";
 import Data from "./Data";
@@ -20,10 +19,14 @@ const Shop = () => {
     return(
         <>
         <div className="container-fluid">
-            <div className="row">
-                <h1 className="col-12 text-center">Shop List</h1>
-                <Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} />
-                <Card item={item} />
+            <h1 className="text-center">Shop List</h1>
+            <div className="row justify-content-center">
+                
+            <div className="col-2"><Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} /></div>
+            <div className="col-10">
+                <div className="row">
+                <Card item={item} /></div>
+                </div>
             </div>
         </div>
         </>

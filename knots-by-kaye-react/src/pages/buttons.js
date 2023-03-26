@@ -1,27 +1,32 @@
 import React from "react";
 import Data from "./Data";
+import "./styles/buttons.css";
 
 const Buttons = ({ filterItem, setItem, itemInventory }) => {
     return (
         <>
-          <div className="d-flex justify-content-center">
+          <div className="Buttons">
             {itemInventory.map((Val, id) => {
               return (
+
                 <button
-                  className="btn-dark text-white p-1 px-2 mx-5 btn fw-bold"
+                  className="p-3 shop-buttons"
                   onClick={() => filterItem(Val)}
                   key={id}
                 >
                   {Val}
                 </button>
+
               );
             })}
+
             <button
-              className="btn-dark text-white p-1 px-3 mx-5 fw-bold btn"
+              className="p-3 shop-buttons"
               onClick={() => setItem(Data)}
             >
               All
             </button>
+
            </div>
         </>
       );
