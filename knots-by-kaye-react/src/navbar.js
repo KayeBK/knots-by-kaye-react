@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import kbklogobasic from "./pages/img/kbklogobasic.png";
 import "./navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -9,7 +10,7 @@ export default function Navbar() {
 
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <Link to="/" className="navbar-brand navbar-title">Knots by Kaye</Link>
+    <Link to="/" className="navbar-brand navbar-title"><img src={kbklogobasic} alt="Simple Logo with a K" class="navbar-img" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
