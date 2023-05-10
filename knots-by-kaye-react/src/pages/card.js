@@ -15,7 +15,6 @@ const Card = ({ item }) => {
                             <div className="card-body">
                                 <div className="card-text card-title">{Val.title} | <span className="card-price">{Val.price}</span></div>
                                 <div className="card-text card-desc">{Val.desc}</div>
-
                             </div>
                         </div>
                     )

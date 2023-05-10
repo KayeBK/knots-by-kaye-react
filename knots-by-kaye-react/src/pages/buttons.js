@@ -19,12 +19,12 @@ const Buttons = ({ filterItem, setItem, itemInventory }) => {
 
               );
             })}
-
+            <hr />
             <button
               className="p-3 shop-buttons"
               onClick={() => setItem(Data)}
             >
-              All
+              Show All
             </button>
 
            </div>
