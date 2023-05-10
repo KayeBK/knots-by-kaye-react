@@ -1,0 +1,17 @@
+.card-desc {
+    font-style: italic;
+}
+
+.card {
+    margin: 15px;
+    background: none;
+    border: 0px;
+}
+
+.card-items {
+    background: rgba(255, 255, 255, .7);
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}

@@ -12,9 +12,9 @@ export default function Updates() {
         <div className="container updates-container">
             <div className="row justify-content-center">
                 <div className="col-lg-9 update-items shadow">
-                    <div className="updates-date">3/20/2023</div>
-                    <div className="updates-titles">Update #1:</div>
-                    <p className="updates-text">Site has been updated to include the separate pages!</p>
+                    <div className="updates-date">5/10/2023</div>
+                    <div className="updates-titles">Update #2:</div>
+                    <p className="updates-text">I'll be at the Yellow Rose Artisan Market in downtown Seguin, TX on May 27th. Come stop by my booth to see my items!</p>
                 </div>
                 <div className="col-lg-9 update-items shadow">
                     <div className="updates-date">3/20/2023</div>

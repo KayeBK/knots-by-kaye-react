@@ -4,7 +4,7 @@ const Data = [
     {
         id: "1",
         title: "Headbands",
-        category: "Headband",
+        category: "Headbands",
         price: "$10",
         img: {exampleimg},
         desc: "Various headbands with multiple colors.",

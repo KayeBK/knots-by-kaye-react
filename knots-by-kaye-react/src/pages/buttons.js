@@ -5,12 +5,12 @@ import "./styles/buttons.css";
 const Buttons = ({ filterItem, setItem, itemInventory }) => {
     return (
         <>
-          <div className="Buttons">
+          <div className="Buttons shadow">
             {itemInventory.map((Val, id) => {
               return (
 
                 <button
-                  className="p-3 shop-buttons"
+                  className="p-2 shop-buttons"
                   onClick={() => filterItem(Val)}
                   key={id}
                 >

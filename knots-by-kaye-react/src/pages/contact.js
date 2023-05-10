@@ -4,7 +4,7 @@ import "./styles/contact.css";
 
 export default function Contact() {
     return (
-        <div className="container contact-container">
+        <div className="container contact-container shadow">
             <div className="contact-text">Contact me below for any questions!</div>
             <div className="contact-email">
             <MailTo label="contact@knotsbykaye.com" mailto="mailto:contact@knotsbykaye.com" />

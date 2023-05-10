@@ -19,11 +19,11 @@ const Shop = () => {
     return(
         <>
         <div className="container-fluid">
-            <h1 className="text-center">Shop List</h1>
+            <h1 className="container shop-title text-center shadow">Shop List</h1>
             <div className="row justify-content-center">
                 
             <div className="col-2"><Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} /></div>
-            <div className="col-10">
+            <div className="col-9">
                 <div className="row">
                 <Card item={item} /></div>
                 </div>
