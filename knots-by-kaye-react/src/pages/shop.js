@@ -25,8 +25,8 @@ const Shop = () => {
             </div>
             <div className="row justify-content-center">
                 
-            <div className="col-md-3"><Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} /></div>
-            <div className="col-md-8">
+            <div className="col-md-2"><Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} /></div>
+            <div className="col-md-9">
                 <div className="row">
                 <Card item={item} /></div>
                 </div>
