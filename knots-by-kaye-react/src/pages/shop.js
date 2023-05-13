@@ -20,13 +20,13 @@ const Shop = () => {
         <>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-3"></div>
-                <div className="col-8"><h1 className="container shop-title text-center shadow">Shop List</h1></div>
+                <div className="col-md-3"></div>
+                <div className="col-md-8"><h1 className="container shop-title text-center shadow">Shop List</h1></div>
             </div>
             <div className="row justify-content-center">
                 
-            <div className="col-2"><Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} /></div>
-            <div className="col-9">
+            <div className="col-md-3"><Buttons filterItem={filterItem}  setItem={setItem} itemInventory={itemInventory} /></div>
+            <div className="col-md-8">
                 <div className="row">
                 <Card item={item} /></div>
                 </div>

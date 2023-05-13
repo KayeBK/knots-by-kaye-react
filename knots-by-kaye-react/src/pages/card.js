@@ -8,7 +8,7 @@ const Card = ({ item }) => {
             <div className="row justify-content-center">
                 {item.map((Val) => {
                     return (
-                        <div className="col-3 card-items shadow" key={Val.id}>
+                        <div className="col-md-3 card-items shadow" key={Val.id}>
                             <div className="card-img-top text-center img-card">
                             <a href={Val.img} target="_blank" rel="noreferrer">
                             <img src={Val.img} alt={`${Val.title} IMG COMING SOON`} className="w-100 card-img" /> </a>
