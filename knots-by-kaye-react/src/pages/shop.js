@@ -3,6 +3,7 @@ import Card from "./card";
 import Buttons from "./buttons";
 import Data from "./Data";
 import "./styles/shop.css";
+import Footer from "../footer";
 
 
 const Shop = () => {
@@ -31,7 +32,9 @@ const Shop = () => {
                 <Card item={item} /></div>
                 </div>
             </div>
+            <Footer />
         </div>
+        
         </>
     );
 };

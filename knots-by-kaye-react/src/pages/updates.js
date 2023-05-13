@@ -3,7 +3,7 @@ import "./styles/updates.css";
 
 export default function Updates() {
     return (
-    <div className="Updates">
+    <div className="Updates container-fluid">
         <div className="container updates-title-container shadow">
             <h1 className="text-center">Recent Updates</h1>
             <p className="text-center updates-description">Shop listing dates as well as market dates I'll be attending will be posted here!</p>
@@ -11,6 +11,11 @@ export default function Updates() {
 
         <div className="container updates-container">
             <div className="row justify-content-center">
+            <div className="col-lg-9 update-items shadow">
+                    <div className="updates-date">5/13/2023</div>
+                    <div className="updates-titles">Update #3:</div>
+                    <p className="updates-text">Item pictures have been taken and uploaded, check them out if you want to.</p>
+                </div>
                 <div className="col-lg-9 update-items shadow">
                     <div className="updates-date">5/10/2023</div>
                     <div className="updates-titles">Update #2:</div>

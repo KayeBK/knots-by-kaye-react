@@ -1,5 +1,7 @@
 html {
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -38,9 +40,10 @@ h4 {
 }
 
 .Footer {
-  background-color: white;
+  background: rgba(255, 255, 255, .7);
   padding: 20px;
-  max-width: 100%;
+  width: 100vw;
+  position: relative;
 }
 
 .footer-title {
@@ -57,6 +60,7 @@ h4 {
 
 .footer-link i {
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .footer-link a:hover {
