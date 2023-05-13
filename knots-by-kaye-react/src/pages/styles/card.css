@@ -19,3 +19,7 @@
 .card-img {
     border-radius: 10px;
 }
+
+.card-title {
+    font-weight: bold;
+}
